@@ -1,0 +1,252 @@
+{
+  "file_input": [
+    {
+      "stmt": {
+        "simple_stmt": [
+          {
+            "small_stmt": {
+              "import_stmt": {
+                "import_name": [
+                  {
+                    "Type": "IMPORT",
+                    "Value": "import"
+                  },
+                  {
+                    "dotted_as_names": {
+                      "dotted_as_name": {
+                        "dotted_name": {
+                          "Type": "NAME",
+                          "Value": "sys"
+                        }
+                      }
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "Type": "NEWLINE",
+            "Value": "\n"
+          }
+        ]
+      }
+    },
+    {
+      "stmt": {
+        "simple_stmt": [
+          {
+            "small_stmt": {
+              "expr_stmt": [
+                {
+                  "testlist_star_expr": {
+                    "test": {
+                      "or_test": {
+                        "and_test": {
+                          "not_test": {
+                            "comparison": {
+                              "expr": {
+                                "xor_expr": {
+                                  "and_expr": {
+                                    "shift_expr": {
+                                      "arith_expr": {
+                                        "term": {
+                                          "factor": {
+                                            "power": {
+                                              "atom_expr": {
+                                                "atom": {
+                                                  "Type": "NAME",
+                                                  "Value": "a"
+                                                }
+                                              }
+                                            }
+                                          }
+                                        }
+                                      }
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                },
+                {
+                  "Type": "ASSIGN",
+                  "Value": "="
+                },
+                {
+                  "testlist_star_expr": {
+                    "test": {
+                      "or_test": {
+                        "and_test": {
+                          "not_test": {
+                            "comparison": {
+                              "expr": {
+                                "xor_expr": {
+                                  "and_expr": {
+                                    "shift_expr": {
+                                      "arith_expr": {
+                                        "term": [
+                                          {
+                                            "factor": {
+                                              "power": {
+                                                "atom_expr": {
+                                                  "atom": {
+                                                    "Type": "NUMBER",
+                                                    "Value": "1"
+                                                  }
+                                                }
+                                              }
+                                            }
+                                          },
+                                          {
+                                            "Type": "STAR",
+                                            "Value": "*"
+                                          },
+                                          {
+                                            "factor": {
+                                              "power": {
+                                                "atom_expr": {
+                                                  "atom": {
+                                                    "Type": "NUMBER",
+                                                    "Value": "2"
+                                                  }
+                                                }
+                                              }
+                                            }
+                                          }
+                                        ]
+                                      }
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "Type": "NEWLINE",
+            "Value": "\n"
+          }
+        ]
+      }
+    },
+    {
+      "stmt": {
+        "simple_stmt": [
+          {
+            "small_stmt": {
+              "expr_stmt": {
+                "testlist_star_expr": {
+                  "test": {
+                    "or_test": {
+                      "and_test": {
+                        "not_test": {
+                          "comparison": {
+                            "expr": {
+                              "xor_expr": {
+                                "and_expr": {
+                                  "shift_expr": {
+                                    "arith_expr": {
+                                      "term": {
+                                        "factor": {
+                                          "power": {
+                                            "atom_expr": [
+                                              {
+                                                "atom": {
+                                                  "Type": "NAME",
+                                                  "Value": "print"
+                                                }
+                                              },
+                                              {
+                                                "trailer": [
+                                                  {
+                                                    "Type": "OPEN_PAREN",
+                                                    "Value": "("
+                                                  },
+                                                  {
+                                                    "arglist": {
+                                                      "argument": {
+                                                        "test": {
+                                                          "or_test": {
+                                                            "and_test": {
+                                                              "not_test": {
+                                                                "comparison": {
+                                                                  "expr": {
+                                                                    "xor_expr": {
+                                                                      "and_expr": {
+                                                                        "shift_expr": {
+                                                                          "arith_expr": {
+                                                                            "term": {
+                                                                              "factor": {
+                                                                                "power": {
+                                                                                  "atom_expr": {
+                                                                                    "atom": {
+                                                                                      "Type": "NAME",
+                                                                                      "Value": "a"
+                                                                                    }
+                                                                                  }
+                                                                                }
+                                                                              }
+                                                                            }
+                                                                          }
+                                                                        }
+                                                                      }
+                                                                    }
+                                                                  }
+                                                                }
+                                                              }
+                                                            }
+                                                          }
+                                                        }
+                                                      }
+                                                    }
+                                                  },
+                                                  {
+                                                    "Type": "CLOSE_PAREN",
+                                                    "Value": ")"
+                                                  }
+                                                ]
+                                              }
+                                            ]
+                                          }
+                                        }
+                                      }
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          },
+          {
+            "Type": "NEWLINE",
+            "Value": "\n"
+          }
+        ]
+      }
+    },
+    {
+      "Type": "DEDENT",
+      "Value": "<EOF>"
+    }
+  ]
+}
